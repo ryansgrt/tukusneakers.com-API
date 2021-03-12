@@ -1,0 +1,19 @@
+{
+  "name": "tukusneakers.com-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryansgrt/tukusneakers.com-API.git"
+  },
+  "author": "ryansgrt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryansgrt/tukusneakers.com-API/issues"
+  },
+  "homepage": "https://github.com/ryansgrt/tukusneakers.com-API#readme"
+}
