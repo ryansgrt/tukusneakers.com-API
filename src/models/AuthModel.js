@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const query = require('../helpers/query')
-const db = require('../configs/dbconnection')
+const query = require('../helpers/Query')
+const db = require('../configs/mySQL')
 
 module.exports = {
     getUserByEmail: (table, email) => {

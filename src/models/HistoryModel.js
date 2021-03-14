@@ -1,5 +1,5 @@
-const db = require("../configs/dbconnection");
-const qs = require("../helpers/query");
+const db = require("../configs/mySQL");
+const qs = require("../helpers/Query");
 
 const getDetailByHistoryId = (id) => {
   return new Promise((resolve, reject) => {

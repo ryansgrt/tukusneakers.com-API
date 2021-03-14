@@ -1,6 +1,6 @@
-const historyModel = require("../models/history");
-const cartModel = require("../models/cart");
-const form = require("../helpers/form");
+const historyModel = require("../models/HistoryModel");
+const cartModel = require("../models/CartModel");
+const form = require("../helpers/Form");
 
 module.exports = {
   getAllHistory: (_, res) => {

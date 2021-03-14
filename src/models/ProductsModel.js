@@ -1,7 +1,7 @@
-const db = require("../configs/dbconnection");
-const qs = require("../helpers/query");
+const db = require("../configs/mySQL");
+const qs = require("../helpers/Query");
 
-const productModel = require("../models/product");
+const productModel = require("./ProductModel");
 
 const getProductAttribute = productModel.getProductAttributeByQuery;
 const query = qs.getQueryWhere;

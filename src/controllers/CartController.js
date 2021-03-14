@@ -1,7 +1,7 @@
 
-const cartModel = require('../models/cart')
-const productModel = require('../models/product')
-const form = require('../helpers/form')
+const cartModel = require('../models/CartModel')
+const productModel = require('../models/ProductModel')
+const form = require('../helpers/Form')
 
 module.exports = {
 	errorRoute: (_, res) => {

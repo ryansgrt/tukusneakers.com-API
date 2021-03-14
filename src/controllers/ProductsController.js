@@ -1,5 +1,5 @@
-const productsModel = require('../models/products')
-const form = require('../helpers/form')
+const productsModel = require('../models/ProductsModel')
+const form = require('../helpers/Form')
 
 module.exports = {
 	getAllProducts : (req, res) => {

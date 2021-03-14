@@ -1,5 +1,5 @@
-const profileModel = require("../models/profile");
-const form = require("../helpers/form");
+const profileModel = require("../models/ProfileModel");
+const form = require("../helpers/Form");
 const fs = require("fs");
 
 module.exports = {

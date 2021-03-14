@@ -1,8 +1,8 @@
-const db = require("../configs/dbconnection");
-const qs = require("../helpers/query");
-const concat = require("../helpers/concat");
+const db = require("../configs/mySQL");
+const qs = require("../helpers/Query");
+const concat = require("../helpers/Concat");
 const fs = require("fs");
-const attrModel = require("../models/attribute");
+const attrModel = require("../models/AttributeModel");
 
 module.exports = {
     getAllProduct: (query) => {

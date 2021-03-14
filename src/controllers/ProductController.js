@@ -1,9 +1,9 @@
-const productModel = require("../models/product");
-const productsModel = require("../models/products");
-const attrModel = require("../models/attribute");
-const form = require("../helpers/form");
+const productModel = require("../models/ProductModel");
+const productsModel = require("../models/ProductsModel");
+const attrModel = require("../models/AttributeModel");
+const form = require("../helpers/Form");
 const fs = require("fs");
-const string = require("../helpers/concat");
+const string = require("../helpers/Concat");
 // const { json } = require('express')
 
 module.exports = {

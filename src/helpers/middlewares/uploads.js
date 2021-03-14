@@ -1,7 +1,7 @@
 const multer = require('multer');
 const path = require("path");
 
-const form = require("../form");
+const form = require("../Form");
 
 const multerStorage = multer.diskStorage({
     destination: function (req, file, callback) {

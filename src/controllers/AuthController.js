@@ -1,7 +1,7 @@
-const form = require("../helpers/form");
-const query = require("../helpers/concat");
-const auth = require("../models/auth");
-const authModel = require("../models/auth");
+const form = require("../helpers/Form");
+const query = require("../helpers/Concat");
+const auth = require("../models/AuthModel");
+const authModel = require("../models/AuthModel");
 const nodemailer = require("nodemailer");
 const { json } = require("express");
 

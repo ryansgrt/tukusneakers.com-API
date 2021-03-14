@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const authModule = require('../../models/auth')
+const authModule = require('../../models/AuthModel')
 
 module.exports = {
     isValid : (req, res, next) => {

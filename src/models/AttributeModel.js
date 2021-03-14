@@ -1,4 +1,4 @@
-const db = require("../config/dbconnection");
+const db = require("../configs/mySQL");
 
 
 module.exports = {

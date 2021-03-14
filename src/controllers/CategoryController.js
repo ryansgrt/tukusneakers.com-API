@@ -1,4 +1,4 @@
-const categoryModel = require('../models/category')
+const categoryModel = require('../models/CategoryModel')
 const form = require('../helpers/form')
 
 module.exports = {

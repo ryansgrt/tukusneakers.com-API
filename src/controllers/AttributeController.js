@@ -1,5 +1,5 @@
-const AttrModel = require("../models/attribute");
-const form = require("../helpers/form");
+const AttrModel = require("../models/AttributeModel");
+const form = require("../helpers/Form");
 
 module.exports = {
   errorRoute: (_, res) => {
